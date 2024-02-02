@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(181, 181, 181);
+}
+
+.logo {
+    color: black;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    height: 17vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.nav-bar ul li {
+    display: inline;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 167px;
+}
+
+.container-text {
+    position: relative;
+    right: 220px;
+}
+
+.container-text h1 {
+    font-size: 2.5rem;
+}
+
+.about-btn {
+    border: transparent;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 10px;
+    position: relative;
+    right: 12px;
+    background: rgb(162, 109, 109);
+    transition: all ease-in;
+}
+
+.about-btn:hover {
+    cursor: pointer;
+    font-family: cursive;
+    background-color: rgb(162, 75, 75);
+    transform: scale(1);
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-container-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-text {
+    /* border: 1px solid black; */
+    width: 523px;
+    height: 296px;
+    padding: 15px;
+}
+
+.intro-text h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.under-intro-text {
+    position: relative;
+    top: 3px;
+    padding: 10px;
+    margin: 5px;
+    text-align: start;
+}
+
+.under-intro-text p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills-bar {
+    position: relative;
+    top: 55px;
+    padding: 10px;
+    text-align: start;
+}
+
+.skills-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.educatoin {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.edu-section {
+    display: flex;
+    justify-content: center;
+}
+
+.edu-section h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.edu-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 50%;
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
+
+.instute {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    padding: 10px;
+    /* margin: 1rem; */
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+    position: relative;
+    left: 20%;
+}
+
+.projects h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sub-pro-container {
+    display: flex;
+    position: relative;
+    left: 2.8rem;
+}
+
+.pro-1 {
+    border: 1px solid black;
+    width: 35%;
+    height: 120px;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    right: 28%;
+}
+
+.contact-section {
+    display: flex;
+    padding: 15px 5px 15px 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    text-align: center;
+}
+
+.contact-text {
+    width: 40.3%;
+    text-align: center;
+}
+
+.connect-me{
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
