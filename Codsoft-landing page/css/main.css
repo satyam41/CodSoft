@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:is(body) {
+    background: #181717;
+    /* background: pink; */
+    color: #fff;
+}
+
+
+:is(section) {
+    border: none;
+    border-radius: 25px;
+    width: 90%;
+    height: 650px;
+    box-shadow: 2px 3px 4px #fff;
+    background-image: url(/img/spacex-bg-img.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+:is(.navbar) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo :is(h1) {
+    font-size: 2rem;
+}
+
+.logo :is(h1):hover {
+    cursor: pointer;
+}
+
+.navigation :is(ul, li) {
+    display: inline;
+    padding: 25px;
+    font-size: 1.8rem;
+}
+
+.navigation ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #041a22;
+    transition: 1s;
+}
+
+.text-container :is(h1) {
+    font-size: 4rem;
+    padding: 12px;
+}
+
+.space {
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    transform: translate(-300%, 30%);
+}
+
+.journey {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translate(-300%, 30%);
+}
+
+.text-container :is(p) {
+    width: 35%;
+    padding: 12px;
+}
+
+.text :is(p){
+    /* border: 1px solid white; */
+    position: absolute;
+    bottom: 15%;
+    right: 47%;
+    transform: translate(-30%, -30%);
+    font-size: 1.1rem;
+}
